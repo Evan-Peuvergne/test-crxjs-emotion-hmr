@@ -1,0 +1,12 @@
+{
+  "extends": "@inspct/ts-config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      ".": ["."]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist", "build"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
